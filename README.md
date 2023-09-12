@@ -40,13 +40,13 @@ _Image 1: Apps information_
 
 The raw data contains 10,841 values, with too many invalid values and variables in the wrong format (continuous become categorical). Data cleaning includes the following steps:
 
-● Eliminate irrelevant variables: First, I dropped some variables in the dataset to exclude those that are irrelevant to my analysis project. This step was done by common sense. I removed size, last updated date, current version, and android version because they are not useful. I also removed Genres as it is a subset of Category variable and there could be multiple values of Genre stored in one row, making it hard to analyze it.
-● Remove NULL values: This is a very crucial step in every analysis and model, which on doing, improves the accuracy of my analysis.
-● Remove invalid characters: The were multiple symbols in the continuous variables, making it hard to convert them into numeric. I removed all commas, characters, plus sign to easily convert.
-● Type variable: There were 3 values (0, Free, Paid). I replaced 0 by Free to turn it into a binary variable
-● Category variable: Dropped the invalid value called “1.9" which was an outliner with no installs.
-● Convert continuous variables (Installs, Rating, Reviews, Price) to numeric format and categorical variables (Category, Type, Content.Rating) to factor format
-After cleaning, my dataset has 9,366 values, sufficient enough for my analysis.
+* Eliminate irrelevant variables: First, I dropped some variables in the dataset to exclude those that are irrelevant to my analysis project. This step was done by common sense. I removed size, last updated date, current version, and android version because they are not useful. I also removed Genres as it is a subset of Category variable and there could be multiple values of Genre stored in one row, making it hard to analyze it.
+* Remove NULL values: This is a very crucial step in every analysis and model, which on doing, improves the accuracy of my analysis.
+* Remove invalid characters: The were multiple symbols in the continuous variables, making it hard to convert them into numeric. I removed all commas, characters, plus sign to easily convert.
+* Type variable: There were 3 values (0, Free, Paid). I replaced 0 by Free to turn it into a binary variable
+* Category variable: Dropped the invalid value called “1.9" which was an outliner with no installs.
+* Convert continuous variables (Installs, Rating, Reviews, Price) to numeric format and categorical variables (Category, Type, Content.Rating) to factor format
+* After cleaning, my dataset has 9,366 values, sufficient enough for my analysis.
 
 ## 3. Exploratory Data Analysis (EDA)
 
@@ -87,9 +87,9 @@ Finally, plot 7 illustrates the relationship between Install and Content.Rating.
 
 Based on the assumptions in the EDA steps, I have some assumptions for my research question:
 
-● 1. Factors that impact user downloads in the Google Play Store can be Type, Price, Review. Besides that, some category (not all), rating range (not all), Content.Rating everyone (not all) may also have significant impact to app downloads
-● 2. Pricing strategy of apps in the Google Play Store influence user downloads
-● 3. Haven’t gather enough sufficient information
+1. Factors that impact user downloads in the Google Play Store can be Type, Price, Review. Besides that, some category (not all), rating range (not all), Content.Rating everyone (not all) may also have significant impact to app downloads
+2. Pricing strategy of apps in the Google Play Store influence user downloads
+3. Haven’t gather enough sufficient information
 
 ## 4. Model (Analytical Methods)
 
