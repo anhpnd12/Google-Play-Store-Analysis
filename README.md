@@ -276,5 +276,3 @@ Positive reviews can significantly influence app downloads, especially within th
 ##### Limitation
 
 This study has several limitations. First is the data age, the data was sourced from 2018, which may not fully capture the current trends of the competitive Google Play Store market. Second is the sample size reductin, around 1.500 values was eliminated after cleaning the data. This reduction may introduce biases. It's important to acknowledge that the sample used for this study might not fully encompass the diversity and complexity of the Google Play Store.
-# Google-Play-Store-Analysis
-# Google-Play-Store-Analysis
